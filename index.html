@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Free Range ATM</title>
+  <title>99 ATMs</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,24 +15,34 @@
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
   <!-- end CSS-->
-
+  <script type="text/javascript">// <![CDATA[  
+      var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+      if (mobile) {  
+          document.location = "./mobile.html";  
+      }
+  // ]]></script> 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <style type='text/css'>
+     #bank_logo{ height: 126px; width:166px; }
+    </style>
 </head>
 
 <body>
-
   <div id="container">
     <header>
-
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="bank_logo" x="0px" y="0px" viewBox="0 0 100 86.52" enable-background="new 0 0 100 86.52" xml:space="preserve" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+        <path d="M100,36.044v-9.522h-6.289L50,0L6.287,26.521H0v9.522h2.858v40.951H0v9.524h100v-9.524h-2.857V36.044H100z M50,11.138  l25.354,15.384H24.646L50,11.138z M30.953,76.995H12.381V36.044h18.572V76.995z M59.523,76.995H40.477V36.044h19.046V76.995z   M87.619,76.995H69.047V36.044h18.572V76.995z"/>
+        </svg>
+        <h1>I've got 99 ATMs</h1>
+        <h2>...those with fees ain't one.</h2>
+        <hr/>
     </header>
     <div id="main" role="main">
-    <h1>Find an AWESOME atm!</h1>
-
+        Looking for an ATM? Click here for the <a href="./mobile.html">app</a>.
     </div>
-    <footer>
-
-    </footer>
+    <footer></footer>
   </div> <!--! end of #container -->
 
 
